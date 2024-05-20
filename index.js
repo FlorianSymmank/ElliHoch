@@ -2,33 +2,36 @@ let rows = 5;
 let cols = 5;
 
 let text = [
-    "Lorem ipsum dolor sit",
-    "amet, consetetur sadipscing",
-    "elitr, sed diam",
-    "nonumy eirmod tempor",
-    "invidunt ut labore et",
-    "dolore magna",
-    "aliquyam erat, sed",
-    "diam voluptua. Att",
-    "accusam et",
-    "justo duo dolores et ea",
-    "rebum. Stet clita",
-    "kasd gubergren,",
-    "no sea takimata",
-    "sanctus est",
-    "Lorem ipsum dolor",
-    "sit amet. Lorem ipsum",
-    "dolor sit amet, consetetur",
-    "sadipscing elitr,",
-    "sed diam nonumy,",
-    "eirmod tempor invidunt ut labore et",
-    "dolore magna aliquyam erat,",
-    "sed diam voluptua. At vero eos",
-    "et accusam et justo duo dolores",
-    "et ea rebum. Stet",
-    "clita kasd gubergren,",
-    "no sea takimata sanctus",
-    "est Lorem ipsum dolor sit amet."
+    "Lege mit der Braut eine flotte Sohle aufs Parkett.",
+    "Mache Deinem Gegenüber ein Kompliment.",
+    "Bringe der Person, die Du am längsten kennst, ein Getränk.",
+    "Mache ein Selfie mit dem Bräutigam.",
+    "Erzähle der Person rechts neben Dir einen Witz.",
+    "Klopfe einem Elternteil der Braut auf die Schulter.",
+    "Begleite eine Person Deines Nachbartisches an die Bar.",
+    "Fordere eine Person, die älter ist als Du, zum Tanzen auf.",
+    "Klaue dem Bräutigam seine Ansteckblume.",
+    "Lache laut, wenn es leise ist.",
+    "Applaudiere übertrieben.",
+    "Streichel einem Elternteil des Bräutigams über den Kopf.",
+    "Mache einen Moonwalk.",
+    "Lerne eine neue Person kennen.",
+    "Zapfe ein Bier.",
+    "Bringe Beate ein Wasser.",
+    "Spiele mit einem Geschwisterkind des Brautpaares \"Schere, Stein, Papier\".",
+    "Trinke mit einer größeren Person einen Shot.",
+    "Schenke einer Mutter eine Blume.",
+    "Gib einer verheirateten Person ein \"High-Five\".",
+    "Gehe 5 Minuten nur noch rückwärts.",
+    "Klatsche immer erst dann, wenn alle fertig sind.",
+    "Fange kurz vor 0:00 Uhr an eine Countdown wie an, Sylvester zu zählen.",
+    "Umarme spontan jemanden, den du nicht kennst.",
+    "Sprich eine dir unbekannte Person die ganze Zeit mit \"Wolfgang\" an.",
+    "Bringe einer kleineren Person etwas Süßes.",
+    "Finde das \"Namens-Full-House\".<br>(Trio & Duo)",
+    "Gebe einer jüngeren Person eine Lebensweisheit mit.",
+    "Finde jemanden, der im selben Monat wie Du Geburtstag hat.",
+    "Klaue einem Vater die Nase."
 ];
 
 function shuffle(array, seed) {
@@ -63,7 +66,7 @@ function displayBingo(seed) {
         let row = table.insertRow(-1);
         for (let c = 0; c < cols; c++) {
             let cell = row.insertCell(0);
-            cell.textContent = textCopy[i++];
+            cell.innerHTML = textCopy[i++];
         }
     }
 }
