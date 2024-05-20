@@ -24,14 +24,14 @@ let text = [
     "Gib einer verheirateten Person ein \"High-Five\".",
     "Gehe 5 Minuten nur noch rückwärts.",
     "Klatsche immer erst dann, wenn alle fertig sind.",
-    "Fange kurz vor 0:00 Uhr an eine Countdown wie an, Sylvester zu zählen.",
-    "Umarme spontan jemanden, den du nicht kennst.",
-    "Sprich eine dir unbekannte Person die ganze Zeit mit \"Wolfgang\" an.",
+    "Fange kurz vor 0:00 Uhr an einen Countdown wie an Sylvester zu zählen.",
+    "Umarme spontan jemanden, den Du nicht kennst.",
+    "Sprich eine Dir unbekannte Person die ganze Zeit mit \"Wolfgang\" an.",
     "Bringe einer kleineren Person etwas Süßes.",
     "Finde das \"Namens-Full-House\".<br>(Trio & Duo)",
-    "Gebe einer jüngeren Person eine Lebensweisheit mit.",
+    "Gebe einker jüngeren Person eine Lebensweisheit mit.",
     "Finde jemanden, der im selben Monat wie Du Geburtstag hat.",
-    "Klaue einem Vater die Nase."
+    "Klaue einem Vater die Nase.",
 ];
 
 function shuffle(array, seed) {
