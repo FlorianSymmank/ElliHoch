@@ -29,7 +29,7 @@ let text = [
     "Sprich eine Dir unbekannte Person die ganze Zeit mit \"Wolfgang\" an.",
     "Bringe einer kleineren Person etwas Süßes.",
     "Finde das \"Namens-Full-House\".<br>(Trio & Duo)",
-    "Gebe einker jüngeren Person eine Lebensweisheit mit.",
+    "Gebe einer jüngeren Person eine Lebensweisheit mit.",
     "Finde jemanden, der im selben Monat wie Du Geburtstag hat.",
     "Klaue einem Vater die Nase.",
 ];
