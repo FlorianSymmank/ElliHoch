@@ -3,6 +3,12 @@
   width: calc(120px * 5);
   table-layout: fixed;
   text-align: center;
+  
+  background-image: url('colorful-flower.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  
 }
 
 #tab td {
@@ -33,4 +39,13 @@ body {
   color: #2f3032;
   font-weight: 400;
   font-style: normal;
+}
+
+.fancy-border {
+  padding: 16px;
+  text-align: center;
+  border: 10px solid #F4A460; 
+  border-radius: 15px; 
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
